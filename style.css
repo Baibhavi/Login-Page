@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.row{
+    background-color:rgb(167, 139, 139);
+    border-radius: 30px;
+    box-shadow: 12px 12px 12px;
+    width: auto;
+    height: 37rem;
+}
+img{
+    width: 120%;
+    height: 37rem;
+    border-bottom-left-radius: 400px;
+    border-top-right-radius: 400px;
+}
+.login h1{
+    font-size: 4rem;
+    font-weight: 300;
+}
+.inp{
+    height: 50px;
+    width: 70%;
+    border: none;
+    outline:none;
+    border-radius: 60px;
+    box-shadow: 2px 3px 2px 3px rgba(0,0,0,0.35);
+}
+.btn-1{
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    background-color: rgba(255, 255, 255, 0.903);
+}
+.btn-1:hover{
+    background-color:lightslategray;
+    transition: 0.5s;
+}
+.fa-facebook{
+    padding: 5px;
+    font-size: 20px;
+}
+.fa-facebook:hover{
+    color: white;
+}
+.fa-google{
+    padding: 5px;
+    font-size: 20px;
+}
+.fa-google:hover{
+    color: white;
+}
+.fa-github{
+    padding: 5px;
+    font-size: 20px;
+}
+.fa-github:hover{
+    color: white;
+}
+.fa-linekdin{
+    padding: 5px;
+    font-size: 20px;
+}
+.fa-linkedin:hover{
+    color: white;
+}
